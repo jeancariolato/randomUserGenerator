@@ -29,8 +29,8 @@ Before getting started, make sure you have installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/user-generator-test.git
-cd user-generator-test
+git clone https://github.com/jeancariolato/randomUserGenerator.git
+cd randomUserGenerator
 ```
 
 ```bash
