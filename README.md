@@ -31,14 +31,20 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/YOUR_USERNAME/user-generator-test.git
 cd user-generator-test
+```
 
 ```bash
 bundle install
+```
 
 ```bash
 ruby app.rb
+```
+
 
 Acess: http://localhost:4567
+
+
 
 
 
