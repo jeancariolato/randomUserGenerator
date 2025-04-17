@@ -42,7 +42,7 @@ ruby app.rb
 ```
 
 
-Acess: http://localhost:4567
+Access: http://localhost:4567
 
 
 
