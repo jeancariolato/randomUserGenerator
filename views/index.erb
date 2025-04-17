@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Pessoa Fictícia</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box-section">
+            <img src="/images/person.png" alt="Pessoa fictícia">
+        </div>
+        <div class="form-section">
+            <h1>Gerador de pessoa fictícia</h1>
+            <p>Crie dados de pessoa inexistente para uso de testes dos seus projetos.</p>
+            <form action="/gerar" method="post">
+                <label for="nome">NOME</label>
+                <input type="text" id="nome" name="nome" value="<%= @nome %>">
+                
+                <label for="email">EMAIL</label>
+                <input type="text" id="email" name="email" value="<%= @email %>">
+                
+                <label for="cpf">CPF</label>
+                <input type="text" id="cpf" name="cpf" value="<%= @cpf %>">
+                
+                <label for="senha">SENHA</label>
+                <input type="text" id="senha" name="senha" value="<%= @senha %>">
+                
+                <button type="submit">Gerar pessoa</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
